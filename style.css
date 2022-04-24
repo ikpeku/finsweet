@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
+
+}
+
+header{
+    margin-left: 10%;
+}
+
+
+.header-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 2em;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul a:hover,
+.nav ul a:active{
+    text-decoration: none;
+    color: blue;
+}
+
+.road-assitance{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.call{
+    margin-right: 15px;
+}
+
+.first-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;  
+}
+
+
+.mes-section1{
+    width: 40%;
+    padding-bottom: 10%;
+    /* margin-left: 50px; */
+}
+
+.mes-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 20%;
+}
+
+.mes-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    margin-bottom: 5%;
+    
+}
+
+.mes-section1 .button{
+    margin-bottom: 50px;
+}
+
+.mes-section1 .button button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    background: #FF6433;
+    border-radius: 12px;
+    color: #ffff;
+    padding: 10px 20px;
+}
+
+#img-section1{
+    width: 50%;
+}
+
+.img{
+    background-image: url(./img/Header_Image.png);
+    width: 100%;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    /* margin-left: 10px; */
+}
+
+.first-section .time-section{
+    display: flex;
+}
+
+.first-section .time-section .time{
+    margin-right: 10px;
+}
+
+.first-section .time-section .p1{
+    margin-bottom: 5px;
+}
+
+.second__section{
+    background: #E2E6E9;
+    padding-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.second__section--container{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-container{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+}
+
+.text-container{
+    width: 70%;
+}
+
+.left-hand-section{
+    /* border: 5px solid red; */
+    display: flex;
+    flex-flow: column nowrap;
+    margin:  0 auto;
+}
+
+.convenient--services__list-items{
+    padding: 5% 0;
+}
+
+.convenient-services{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.convenient__services--detail{
+    width: 70%;
+    padding-left: 3%;
+}
+
+.convenient__services--detail h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+}
+
+.convenient__services--detail p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+.convenient__services--readMore {
+    margin-top: 10%;
+}
+
+.convenient__services--readMore img{
+    padding-left: 5%;
+}
+
+
+.right-hand-section h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+}
+
+.form__container{
+    margin-top: 5%;
+}
+
+.right-hand-section input{
+    padding: 5%;
+    width: 100%;
+    text-align: left;
+}
+
+.right-hand-section button {
+    padding: 16px 40px;
+    background: #FF6433;
+    border-radius: 12px;
+    color: white;
+    margin-top: 5%;
+    border: none;
+}
+
+/* This is the third section of the web page */
+
+.third__section--container {
+    width: 70%;
+    margin:  0 auto;
+    display: flex;
+}
+
+.third__section--container__left-section{
+    padding: 10% 0;
+    width: 60%;
+}
+
+.third__section--container__left-section h2{
+    width: 80%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+}
+
+.third__section--container__left-section p {
+    margin: 2% 0;
+    width: 60%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+.third__section--container__left-section button{
+    padding: 16px 40px;
+    background: #FF6433;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+
+.element__logo {
+    width: 80px;
+    height: 80px;
+    background: #661CE7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element__logo h1{
+    font-weight: bold;
+    color: white;
+}
+
+/* Third section right section */
+.third__section--container__right-section{
+    padding: 3%;
+
+}
+
+.element{
+    display: flex;
+    flex-flow: column;
+}
+
+.element__container{
+    display: flex;
+}
+
+.element__description{
+    padding-left: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.element__hanger{
+    margin-bottom: 2%;
+}
+
+.element__hanger--description{
+    border-left: 2px dotted #FF6433;
+    margin-left: 30px;
+    margin-top: 2%;
+    padding-left: 10%;
+}
+
+
+.element__description h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+}
+
+.element__hanger--description p{
+    width: 65%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    opacity: 0.6;
+}
+
+.element__hanger_3{
+    border: none;
+}
+
+
+/* This is the fourth section of the page */
+
+.fourth__section{
+    background: #F2F2F2;
+    text-align: center;
+    padding: 5% 0;
+}
+
+
+.fourth__section--offers__list{
+    width: 316px;
+    height: 232px;
+    background: white;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.fourth__section--offers{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.img__container{
+    Width: 46px;
+    Height: 46px;
+    margin-bottom: 1em;
+}
+
+
+.fourth-section__offers--aux{
+    background: #FF6433;
+    color: white;
+}
+
+
+.fourth__section h2{
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.fourth-section__read-more{
+    margin-top: 2%;
+}
+
+.fourth-section__read-more p{
+    margin-left: 75%;
+}
+
+.car-image{
+    background: url(./img/Image1.png);
+    width: 976px;
+
+}
+
+.engine__block{
+    background: url(./img/image2.png);
+    width: 976px;
+}
+
+.fifth--section__image--container{
+    display: flex;
+    width: 100%;
+    height: 502px;
+}
+
+.contact__block{
+    background: #FF6433;
+    margin-left: 35%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.contact__block--property{
+    padding-left: 10%;
+}
+
+.contact__block h2{
+    width: 90%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.contact__block button{
+    padding: 16px 40px;
+    background: black;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    margin-top: 3%;
+}
+
+.experience__block{
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+}
+
+.experience__block--container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.experience__block--container h1{
+    color: #661CE7;
+}
+
+.proffesional__experience{
+    text-align: center;
+    padding: 3% 0;
+}
+
+.logos{
+    Width: 225.6px;
+    Height: 126.67px;
+    margin: 0 0.5%; 
+}
+
+/* the sixth__section  */
+.sixth__section{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.logo__container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+}
+
+.sixth__section--title{
+    padding: 2% 0;
+}
+
+.sixth__section--title h3{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+}
