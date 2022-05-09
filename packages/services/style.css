@@ -1,3 +1,31 @@
+/* #first_section{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid red;
+    width: 100%;
+    height: 17rem;
+    background: url(./serviceImg/bgFirstSection.png);
+}
+
+.mes_blog{
+    width: 60%;
+    background: black;
+    color: #F2F2F2;
+
+}
+
+.mes_blog h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.03em;
+    margin-top: 1rem;
+    text-align: center;
+} */
+
+
+
+
 #first_section {
     width: 70%;
     height: 540px;
@@ -13,8 +41,6 @@
     background: black;
     color: #F2F2F2;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -43,6 +69,8 @@
     border-radius: 12px;
     padding: 1.5em 5em;
     color: white;
+    border: none;
+    box-shadow: none;
 }
 
 /* second section */
@@ -128,7 +156,6 @@
 
 /* third-section */
 
-
 .third-section__container{
     width: 60%;
     margin: 0 auto;
@@ -171,6 +198,7 @@
 
 
 /* Fourth section */
+
 #fourth-section{
     margin: 3rem 0 8rem 0;
 }
