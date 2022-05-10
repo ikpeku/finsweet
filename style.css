@@ -46,13 +46,14 @@
         border-radius: 12px;
         color: #ffff;
         padding: 0.63rem 1.25rem;
+        border: none;
     }
 
     #img-section1{
         width: 100%;
         order: -1;
     }
-/* 
+
     .img{
         background-image: url(./img/Header_Image.png);
         width: 100%;
@@ -60,7 +61,7 @@
         background-repeat: no-repeat;
         background-size: cover; 
         background-position: center;
-    } */
+    }
 
     .first-section .time-section{
         display: flex;
@@ -78,6 +79,8 @@
     .first-section .time-section .p1{
         margin-bottom: 0.32rem;
     }
+
+
 
     /* the second section */
 
@@ -439,25 +442,25 @@
     }
 
     .customer__review{
-        display: flex;
+        display: block;
         width: 85%;
-        justify-content: center;
-        /* padding-bottom: 2rem; */
+        /* justify-content: center; */
+        /* padding: 2rem; */
     }
 
     .customer__review--1{
-        margin-right: 2%;
+        margin: 2% 0;
         width: 100%;
         background: #FFFFFF;
         box-shadow: 11px 130px 100px 30px #00000005;
         border-radius: 6px;
-        padding-bottom: 1.5rem; 
+        padding: 1.5rem; 
     }
 
     .customer__review--1__title{
         display: flex;
         width: 100%;
-        /* align-items: center; */
+        align-items: center;
     }
 
     .seven__section--title{
@@ -466,7 +469,6 @@
     }
 
     .seven__section--title h2 {
-        font-weight: 700;
         font-size:1.5rem;
         line-height: 2rem;
         letter-spacing: -0.03rem;
@@ -477,8 +479,12 @@
         padding-left: 5%;
     }
 
+    .review-sub-2{
+        font-size:0.7rem;
+        line-height: 1.5rem;
+    }
+
     .review-sub-1 p{
-        font-weight: 600;
         font-size: 1rem;
         line-height: 2rem;
         color: #939191;
